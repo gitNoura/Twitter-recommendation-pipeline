@@ -47,7 +47,7 @@ NEXTAUTH_SECRET=
 * ### MongoDB
    To ensure the efficient storage and retrieval of user-centric and tweet-related data, it's crucial to be connected to MongoDB. In MongoDB, a well-defined schema is employed to store user profiles and tweets. The schema, designed in Prisma, is structured to accommodate the diverse attributes associated with user profiles, such as user information and social interactions. Similarly, the schema for tweets encompasses relevant metadata and content. 
   > This schema design, which can be referred to in prisma/schema.prisma, plays a crucial role in contributing to the overall effectiveness of the recommendation system.
-  > The code in ____ is used to load the data from Neo4j to MongoDB. Please replace the password in line 8 with your own database password, replace the uri in line 11 with the link you will find in MongoDB, and the collection in line 13 and 14 with your own collection's name.
+  > The code in neo4j/neo.py is used to load users from Neo4j to MongoDB, and the code in neo4j/tweet.py is for tweets. Please replace the password in line 8 with your own database password, replace the uri in line 11 with the link you will find in MongoDB, and the collection in line 13 and 14 with your own collection's name.
 
 * ### Kafka message broker (3.7.0)
   This component streams raw tweets for sentiment analysis and efficiently updates the graph database with sentiment information.
