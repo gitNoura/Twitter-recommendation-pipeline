@@ -8,14 +8,14 @@
 # Table of Contents
 
 - [Description](#Description)
-- [Video](#Video)
+- [Demo](#Demo)
 - [Usage & Prerequisites](#Usage--Prerequisites)
   
 ## Description
 
 The project is focused on creating a graph-based recommendation system tailored for **Twitter/X-like** users, delivering personalized follow recommendations. It integrates a front-end web application for user engagement, a Neo4j graph database for robust data storage, and NLP processing for sentiment analysis via Kafka Streams. The main objective is to establish an efficient data processing framework for tweet processing, graph database updates, and user interaction-based recommendations, all while ensuring streamlined data storage and real-time sentiment analysis. The solution encompasses the deployment of a Neo4j graph database, the design of a MongoDB schema for comprehensive user profile and tweet storage, and the incorporation of sentiment analysis using the TextBlob NLP library, seamlessly integrated with the chosen stream processing engine, Kafka Streams. The sentiment analysis results are channeled through the Kafka Message broker and recorded in the "SENTIMENT_TOPIC" Kafka topic, subsequently utilized to update the relevant nodes in the Neo4j graph database.
 
-## Video
+## Demo
 
 > [[Recommendation Pipeline](https://www.youtube.com/watch?v=4Cxi3a4jylY)]
 
@@ -38,10 +38,9 @@ NEXTAUTH_SECRET=
 ```
 
 
-* ### Neo4j (Node version 14.x)
+* ### Neo4j
    Set up and configure Neo4j to facilitate efficient data storage and retrieval within the project. Refer to the provided vyoutube ideo for detailed installation instructions. [[link](https://youtu.be/qAFivl3z8jo)]
-  > In our case we created a new local database and clone a sample of data from neo4j-graph-examples/twitter-v2 database to facilitate testing and development. Please refer to the video provided to create a local DBMS [[link](https://youtu.be/xwObLzLcMJ0)] and to clone a sample of the data refer to neocreate.py under twitter-clone.
-  > 
+  > In our case we created a new local database and cloned the data from neo4j-graph-examples/twitter-v2 database to facilitate testing and development. Please refer to the video provided to create a local DBMS [[link](https://youtu.be/xwObLzLcMJ0)] and to clone the data refer to clone.py.
   > In the code, you will only need to replace the password with the password of the new database that you created in Neo4j and run the code.
 
 * ### MongoDB
