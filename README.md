@@ -17,7 +17,7 @@ The project is focused on creating a graph-based recommendation system tailored 
 
 ## Video
 
-> [[Recommendation Pipeline](https://img.youtube.com/vi/VIDEO_ID/0.jpg)] //link to our video
+> [[Recommendation Pipeline](https://www.youtube.com/watch?v=4Cxi3a4jylY)]
 
 ## Usage & Prerequisites
 
