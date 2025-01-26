@@ -4,7 +4,6 @@
   <img src="https://github.com/gitNoura/Twitter-recommendation-pipeline/assets/159318078/04ba2272-7004-4a2c-994b-f0e6ab2bebb7" alt="Image Description">
 </div>
 
-
 # Table of Contents
 
 - [Description](#Description)
