@@ -1,7 +1,7 @@
 # Twitter-recommendation-pipeline
 
 <div align="center">
-  <img src="https://github.com/gitNoura/Twitter-recommendation-pipeline/assets/159318078/04ba2272-7004-4a2c-994b-f0e6ab2bebb7" alt="Image Description">
+  <img src="https://github.com/user-attachments/assets/4d89dd78-d44f-494b-886f-060c5e57828f" alt="Image Description">
 </div>
 
 # Table of Contents
